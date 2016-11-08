@@ -15,14 +15,12 @@ body {
   margin-top: 50px;
   margin-bottom: 20px;
   height: 50vh;
-  border:1px solid $border;
+  border: 2px solid $border;
   width: 75vw;
 }
 
 .btnContainer {
-  border:1px solid $border;
-  width: 400px;
-  height: 40px;
+  margin: 0 auto;
 }
 
 .a {
@@ -34,7 +32,7 @@ body {
 	border-radius: 50px;
 }
 
-#tabBtn {
+.tabBtn {
   align-self: center;
   background-color: $background;
   border: none;
@@ -44,8 +42,25 @@ body {
 #imgButton {
   width: 60px;
   height: auto;
+  outline: none;
 }
 .demo {
   display: flex;
   flex-direction: column;
+}
+.imgButton {
+  width: auto;
+  height: 40px;
+  margin-right: 5px;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+#play-pause {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
