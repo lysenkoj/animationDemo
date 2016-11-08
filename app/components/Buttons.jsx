@@ -74,3 +74,20 @@ play() {
     )
   }
 }
+
+
+
+
+
+/* Button Ideas
+
+one that creates wave....
+groups into everyother using even and odd keys
+some sort of sequence of different animations
+
+
+
+
+
+
+*/
